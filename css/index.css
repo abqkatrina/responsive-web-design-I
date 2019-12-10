@@ -181,6 +181,8 @@ footer {
 	padding: 0 0 5% 0;
 }
 
+/* SERVICE PAGE STARTS HERE ------------------------------------------- */
+
 .top {
 	width 100%;
 }
@@ -243,12 +245,11 @@ p {
 	list-style-type: square;
 }
 
-
+/* VISION PAGE STARTS HERE ----------------------------------------- */
 .vision-smBoxes {
 		display: flex;
 		justify-content: space-between;
 		flex-flow: row wrap;
-		border: 2px solid pink;
 	}
 
 .vision-bottom {
@@ -256,7 +257,6 @@ p {
 }
 
 .vision-sm-box {
-	border: 1px solid blue;
 	width: 20%;
 }
 
@@ -326,7 +326,7 @@ p {
     display: none;
   }
 
-
+/* TABLET SERVICE PAGE  ----------------------------- */
 	.top {
 		width 100%;
 	}
@@ -389,13 +389,27 @@ p {
 		list-style-type: square;
 	}
 
+/* TABLET VISION PAGE ------------------------------ */
+
+	.vision-smBoxes {
+			display: flex;
+			justify-content: space-between;
+			flex-flow: row wrap;
+		}
+
+	.vision-bottom {
+		display: flex;
+	}
+
+	.vision-sm-box {
+		width: 45%;
+	}
 }
 /* END TABLET VIEW -----------------------------------------*/
 
 
 /* MOBILE VIEW -------------------------------------------- */
 @media (max-width: 500px) {
-
 
   .everything {
     margin: 0 2%;
@@ -476,7 +490,7 @@ p {
     padding: 10px;
   }
 
-
+/*  MOBILE SERVICE PAGE ------------------------------ */
 	.top {
 		width 100%;
 	}
@@ -539,4 +553,19 @@ p {
 		list-style-type: square;
 	}
 
+/* MOBILE VISION PAGE ---------------------------- */
+
+	.vision-smBoxes {
+			display: flex;
+			justify-content: space-between;
+			flex-flow: column wrap;;
+		}
+
+	.vision-bottom {
+		display: flex;
+	}
+
+	.vision-sm-box {
+		width: 50%;
+	}
 }
